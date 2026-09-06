@@ -1,0 +1,580 @@
+[
+  {
+    "orderId": "AURA-12502",
+    "userId": "usr-1",
+    "date": "2026-09-05",
+    "items": [
+      {
+        "product": {
+          "id": "prod-fash-1",
+          "name": "Tailored Double-Breasted Cashmere Coat",
+          "slug": "tailored-cashmere-coat",
+          "category": "Fashion",
+          "categorySlug": "fashion",
+          "brand": "Aura Atelier",
+          "price": 39999,
+          "originalPrice": 54999,
+          "discount": 27,
+          "rating": 4.9,
+          "reviewsCount": 84,
+          "inStock": true,
+          "stock": 12,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Masterfully tailored from 100% Mongolian virgin cashmere with horn buttons and silk satin lining.",
+          "description": "An enduring icon of modern sophistication. Hand-finished with structured shoulders, deep welt pockets, and a flattering elongated silhouette, this coat encapsulates the quiet luxury philosophy of AURA.",
+          "images": [
+            "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Camel Tan",
+              "hex": "#C29B70"
+            },
+            {
+              "name": "Onyx Black",
+              "hex": "#18181B"
+            },
+            {
+              "name": "Oatmeal Melange",
+              "hex": "#E2DAD0"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "specs": {
+            "Material": "100% Mongolian Cashmere",
+            "Lining": "100% Mulberry Silk Satin",
+            "Origin": "Made in Italy",
+            "Care": "Specialist Dry Clean Only"
+          }
+        },
+        "quantity": 1,
+        "price": 39999
+      }
+    ],
+    "subtotal": 39999,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 7200,
+    "total": 47199,
+    "status": "Processing",
+    "shippingMethod": "Standard Carbon-Neutral Delivery",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "trackingNumber": "AU-15329226",
+    "shippingAddress": {
+      "fullName": "Ananya Sharma",
+      "street": "Penthouse 12, Golf Links Enclave",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110003",
+      "country": "India",
+      "phone": "+91 98101 23456"
+    },
+    "trackingSteps": [
+      {
+        "label": "Order Confirmed",
+        "date": "Just now",
+        "completed": true
+      },
+      {
+        "label": "Artisan Packaging",
+        "date": "In Progress",
+        "completed": false
+      },
+      {
+        "label": "Express Dispatch",
+        "date": "Pending",
+        "completed": false
+      },
+      {
+        "label": "Doorstep Delivery",
+        "date": "Estimated in 2-3 days",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "orderId": "AURA-50140",
+    "userId": "usr-1",
+    "date": "2026-09-05",
+    "items": [
+      {
+        "product": {
+          "id": "prod-fash-1",
+          "name": "Tailored Double-Breasted Cashmere Coat",
+          "slug": "tailored-cashmere-coat",
+          "category": "Fashion",
+          "categorySlug": "fashion",
+          "brand": "Aura Atelier",
+          "price": 39999,
+          "originalPrice": 54999,
+          "discount": 27,
+          "rating": 4.9,
+          "reviewsCount": 84,
+          "inStock": true,
+          "stock": 12,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Masterfully tailored from 100% Mongolian virgin cashmere with horn buttons and silk satin lining.",
+          "description": "An enduring icon of modern sophistication. Hand-finished with structured shoulders, deep welt pockets, and a flattering elongated silhouette, this coat encapsulates the quiet luxury philosophy of AURA.",
+          "images": [
+            "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Camel Tan",
+              "hex": "#C29B70"
+            },
+            {
+              "name": "Onyx Black",
+              "hex": "#18181B"
+            },
+            {
+              "name": "Oatmeal Melange",
+              "hex": "#E2DAD0"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "specs": {
+            "Material": "100% Mongolian Cashmere",
+            "Lining": "100% Mulberry Silk Satin",
+            "Origin": "Made in Italy",
+            "Care": "Specialist Dry Clean Only"
+          }
+        },
+        "quantity": 1,
+        "price": 39999
+      }
+    ],
+    "subtotal": 39999,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 7200,
+    "total": 47199,
+    "status": "Processing",
+    "shippingMethod": "Standard Carbon-Neutral Delivery",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "trackingNumber": "AU-98370170",
+    "shippingAddress": {
+      "fullName": "Ananya Sharma",
+      "street": "Penthouse 12, Golf Links Enclave",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110003",
+      "country": "India",
+      "phone": "+91 98101 23456"
+    },
+    "trackingSteps": [
+      {
+        "label": "Order Confirmed",
+        "date": "Just now",
+        "completed": true
+      },
+      {
+        "label": "Artisan Packaging",
+        "date": "In Progress",
+        "completed": false
+      },
+      {
+        "label": "Express Dispatch",
+        "date": "Pending",
+        "completed": false
+      },
+      {
+        "label": "Doorstep Delivery",
+        "date": "Estimated in 2-3 days",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "orderId": "AURA-73435",
+    "userId": "usr-1",
+    "date": "2026-09-05",
+    "items": [
+      {
+        "product": {
+          "id": "prod-fash-1",
+          "name": "Tailored Double-Breasted Cashmere Coat",
+          "slug": "tailored-cashmere-coat",
+          "category": "Fashion",
+          "categorySlug": "fashion",
+          "brand": "Aura Atelier",
+          "price": 39999,
+          "originalPrice": 54999,
+          "discount": 27,
+          "rating": 4.9,
+          "reviewsCount": 84,
+          "inStock": true,
+          "stock": 12,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Masterfully tailored from 100% Mongolian virgin cashmere with horn buttons and silk satin lining.",
+          "description": "An enduring icon of modern sophistication. Hand-finished with structured shoulders, deep welt pockets, and a flattering elongated silhouette, this coat encapsulates the quiet luxury philosophy of AURA.",
+          "images": [
+            "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Camel Tan",
+              "hex": "#C29B70"
+            },
+            {
+              "name": "Onyx Black",
+              "hex": "#18181B"
+            },
+            {
+              "name": "Oatmeal Melange",
+              "hex": "#E2DAD0"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "specs": {
+            "Material": "100% Mongolian Cashmere",
+            "Lining": "100% Mulberry Silk Satin",
+            "Origin": "Made in Italy",
+            "Care": "Specialist Dry Clean Only"
+          }
+        },
+        "quantity": 1,
+        "price": 39999
+      }
+    ],
+    "subtotal": 39999,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 7200,
+    "total": 47199,
+    "status": "Processing",
+    "shippingMethod": "Standard Carbon-Neutral Delivery",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "trackingNumber": "AU-22473585",
+    "shippingAddress": {
+      "fullName": "Ananya Sharma",
+      "street": "Penthouse 12, Golf Links Enclave",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110003",
+      "country": "India",
+      "phone": "+91 98101 23456"
+    },
+    "trackingSteps": [
+      {
+        "label": "Order Confirmed",
+        "date": "Just now",
+        "completed": true
+      },
+      {
+        "label": "Artisan Packaging",
+        "date": "In Progress",
+        "completed": false
+      },
+      {
+        "label": "Express Dispatch",
+        "date": "Pending",
+        "completed": false
+      },
+      {
+        "label": "Doorstep Delivery",
+        "date": "Estimated in 2-3 days",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "orderId": "AURA-98241",
+    "userId": "usr-1",
+    "date": "2026-08-28",
+    "items": [
+      {
+        "product": {
+          "id": "prod-beauty-1",
+          "name": "Lumière Restorative Botanical Face Elixir",
+          "slug": "lumiere-botanical-face-elixir",
+          "category": "Beauty",
+          "categorySlug": "beauty",
+          "brand": "Verve Botanicals",
+          "price": 7999,
+          "originalPrice": 9999,
+          "discount": 20,
+          "rating": 4.95,
+          "reviewsCount": 198,
+          "inStock": true,
+          "stock": 35,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Concentrated antioxidant facial oil infused with Rosehip Seed, Blue Tansy, and Squalane.",
+          "description": "A transformative elixir crafted to replenish vital lipids, calm inflammation, and restore a radiant golden glow. Fast-absorbing and non-comedogenic.",
+          "images": [
+            "https://images.unsplash.com/photo-1608248597359-01a55f8ff0f8?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Amber Gold 30ml",
+              "hex": "#D4AF37"
+            },
+            {
+              "name": "Amber Gold 50ml",
+              "hex": "#C5A880"
+            }
+          ],
+          "sizes": [
+            "30ml / 1.0 fl oz",
+            "50ml / 1.7 fl oz"
+          ],
+          "specs": {
+            "Skin Type": "All skin types, particularly dry & sensitive",
+            "Key Actives": "Organic Rosehip, Squalane, Blue Tansy, CoQ10",
+            "Formulation": "100% Plant-Derived, Vegan & Cruelty-Free",
+            "Origin": "Grasse, France"
+          }
+        },
+        "quantity": 1,
+        "selectedSize": "50ml / 1.7 fl oz",
+        "selectedColor": {
+          "name": "Amber Gold 30ml",
+          "hex": "#D4AF37"
+        },
+        "price": 7999
+      },
+      {
+        "product": {
+          "id": "prod-acc-1",
+          "name": "Palermo Hand-Stitched Grain Leather Tote",
+          "slug": "palermo-leather-tote",
+          "category": "Accessories",
+          "categorySlug": "accessories",
+          "brand": "Aura Atelier",
+          "price": 29999,
+          "originalPrice": 38500,
+          "discount": 22,
+          "rating": 4.9,
+          "reviewsCount": 165,
+          "inStock": true,
+          "stock": 10,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Supple full-grain Tuscan calfskin with structured base, magnetic closure, and removable zip pouch.",
+          "description": "Effortlessly holds a 15\" laptop along with all your daily essentials. Featuring hand-painted raw edges, solid brass hardware, and interior micro-suede lining.",
+          "images": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Cognac Saddle",
+              "hex": "#9E5B32"
+            },
+            {
+              "name": "Pitch Black",
+              "hex": "#0F172A"
+            },
+            {
+              "name": "Olive Drab",
+              "hex": "#4B5320"
+            }
+          ],
+          "sizes": [
+            "Large (Fits 15\" Laptop)",
+            "Medium (Fits 13\" Laptop)"
+          ],
+          "specs": {
+            "Leather": "100% Vegetable-Tanned Tuscan Calf Leather",
+            "Hardware": "Solid Antique Brass",
+            "Dimensions": "38cm W x 32cm H x 15cm D",
+            "Origin": "Florence, Italy"
+          }
+        },
+        "quantity": 1,
+        "selectedSize": "Large (Fits 15\" Laptop)",
+        "selectedColor": {
+          "name": "Cognac Saddle",
+          "hex": "#9E5B32"
+        },
+        "price": 29999
+      }
+    ],
+    "subtotal": 40899,
+    "discount": 8180,
+    "shipping": 0,
+    "tax": 5889,
+    "total": 38608,
+    "status": "Delivered",
+    "shippingMethod": "Express Courier (Free VIP Tier)",
+    "paymentMethod": "Credit Card (•••• 8921)",
+    "trackingNumber": "AU-EXP-88937190",
+    "shippingAddress": {
+      "fullName": "Ananya Sharma",
+      "street": "Penthouse 12, Golf Links Enclave",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110003",
+      "country": "India",
+      "phone": "+91 98101 23456"
+    },
+    "trackingSteps": [
+      {
+        "label": "Order Confirmed",
+        "date": "Aug 28, 10:30 AM",
+        "completed": true
+      },
+      {
+        "label": "Artisan Packaging",
+        "date": "Aug 28, 03:45 PM",
+        "completed": true
+      },
+      {
+        "label": "Shipped with Express",
+        "date": "Aug 29, 08:15 AM",
+        "completed": true
+      },
+      {
+        "label": "Delivered",
+        "date": "Aug 30, 02:20 PM",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "orderId": "AURA-61042",
+    "userId": "usr-2",
+    "date": "2026-09-02",
+    "items": [
+      {
+        "product": {
+          "id": "prod-elec-1",
+          "name": "AURA Studio Wireless ANC Headphones",
+          "slug": "aura-studio-anc-headphones",
+          "category": "Electronics",
+          "categorySlug": "electronics",
+          "brand": "Lumina Audio",
+          "price": 31999,
+          "originalPrice": 37999,
+          "discount": 16,
+          "rating": 4.95,
+          "reviewsCount": 310,
+          "inStock": true,
+          "stock": 15,
+          "isFeatured": true,
+          "isTrending": true,
+          "isBestSeller": true,
+          "isNew": false,
+          "shortDescription": "Bespoke anodized aluminum chassis, lambskin memory foam earcups, and lossless spatial audio.",
+          "description": "Engineered for true audiophiles. Experience custom-tuned 40mm beryllium drivers, active hybrid noise cancellation with transparency mode, and 45-hour continuous battery life on a single charge.",
+          "images": [
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1484704849700-f032a568e944?q=80&w=900&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=900&auto=format&fit=crop"
+          ],
+          "colors": [
+            {
+              "name": "Space Silver & Sand",
+              "hex": "#E5E7EB"
+            },
+            {
+              "name": "Obsidian Matte",
+              "hex": "#18181B"
+            },
+            {
+              "name": "Champagne Gold",
+              "hex": "#D4AF37"
+            }
+          ],
+          "sizes": [
+            "One Size (Adjustable)"
+          ],
+          "specs": {
+            "Driver": "40mm Custom Beryllium Diaphragm",
+            "Battery Life": "45 Hours with ANC Enabled",
+            "Bluetooth": "5.3 with LDAC & aptX HD support",
+            "Weight": "275g (Ultra lightweight)"
+          }
+        },
+        "quantity": 1,
+        "selectedSize": "One Size",
+        "selectedColor": {
+          "name": "Space Silver & Sand",
+          "hex": "#E5E7EB"
+        },
+        "price": 31999
+      }
+    ],
+    "subtotal": 31999,
+    "discount": 3200,
+    "shipping": 0,
+    "tax": 5183,
+    "total": 33982,
+    "status": "Out for Delivery",
+    "shippingMethod": "Express Priority Air",
+    "paymentMethod": "UPI FastPay",
+    "trackingNumber": "AU-EXP-44029188",
+    "shippingAddress": {
+      "fullName": "Rohan Mehta",
+      "street": "18B Altamount Road, Cumballa Hill",
+      "city": "Mumbai",
+      "state": "MH",
+      "zip": "400026",
+      "country": "India",
+      "phone": "+91 98200 87654"
+    },
+    "trackingSteps": [
+      {
+        "label": "Order Confirmed",
+        "date": "Sep 02, 09:15 AM",
+        "completed": true
+      },
+      {
+        "label": "Artisan Packaging",
+        "date": "Sep 02, 02:00 PM",
+        "completed": true
+      },
+      {
+        "label": "Shipped with Express",
+        "date": "Sep 03, 10:30 AM",
+        "completed": true
+      },
+      {
+        "label": "Out for Delivery",
+        "date": "Today, 08:00 AM",
+        "completed": true
+      }
+    ]
+  }
+]

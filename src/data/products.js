@@ -1,0 +1,998 @@
+export const CATEGORIES = [
+  {
+    id: 'fashion',
+    name: 'Fashion',
+    slug: 'fashion',
+    description: 'Effortless silhouettes tailored with timeless craftsmanship and pure natural fabrics.',
+    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop',
+    itemCount: '120+ Items'
+  },
+  {
+    id: 'beauty',
+    name: 'Beauty',
+    slug: 'beauty',
+    description: 'Clean, potent formulations designed to illuminate, nourish, and revitalize.',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=900&auto=format&fit=crop',
+    itemCount: '85+ Items'
+  },
+  {
+    id: 'electronics',
+    name: 'Electronics',
+    slug: 'electronics',
+    description: 'Precision engineering meets minimalist aesthetics for elevated everyday living.',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=900&auto=format&fit=crop',
+    itemCount: '60+ Items'
+  },
+  {
+    id: 'accessories',
+    name: 'Accessories',
+    slug: 'accessories',
+    description: 'Curated statement jewelry, artisanal leather bags, and refined accents.',
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop',
+    itemCount: '95+ Items'
+  },
+  {
+    id: 'home-lifestyle',
+    name: 'Home & Lifestyle',
+    slug: 'home-lifestyle',
+    description: 'Sculptural homeware, comforting fragrances, and conscious living essentials.',
+    image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=900&auto=format&fit=crop',
+    itemCount: '70+ Items'
+  },
+  {
+    id: 'footwear',
+    name: 'Footwear',
+    slug: 'footwear',
+    description: 'Handcrafted shoes engineered for supreme comfort, sleek lines, and durability.',
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=900&auto=format&fit=crop',
+    itemCount: '50+ Items'
+  }
+];
+
+export const PRODUCTS = [
+  // FASHION
+  {
+    id: 'prod-fash-1',
+    name: 'Tailored Double-Breasted Cashmere Coat',
+    slug: 'tailored-cashmere-coat',
+    category: 'Fashion',
+    categorySlug: 'fashion',
+    brand: 'Aura Atelier',
+    price: 39999,
+    originalPrice: 54999,
+    discount: 27,
+    rating: 4.9,
+    reviewsCount: 84,
+    inStock: true,
+    stock: 12,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Masterfully tailored from 100% Mongolian virgin cashmere with horn buttons and silk satin lining.',
+    description: 'An enduring icon of modern sophistication. Hand-finished with structured shoulders, deep welt pockets, and a flattering elongated silhouette, this coat encapsulates the quiet luxury philosophy of AURA.',
+    images: [
+      'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Camel Tan', hex: '#C29B70' },
+      { name: 'Onyx Black', hex: '#18181B' },
+      { name: 'Oatmeal Melange', hex: '#E2DAD0' }
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    specs: {
+      'Material': '100% Mongolian Cashmere',
+      'Lining': '100% Mulberry Silk Satin',
+      'Origin': 'Made in Italy',
+      'Care': 'Specialist Dry Clean Only'
+    }
+  },
+  {
+    id: 'prod-fash-2',
+    name: 'Silk Charmeuse Evening Slip Gown',
+    slug: 'silk-charmeuse-slip-gown',
+    category: 'Fashion',
+    categorySlug: 'fashion',
+    brand: 'Maison Noir',
+    price: 24500,
+    originalPrice: 31000,
+    discount: 21,
+    rating: 4.8,
+    reviewsCount: 62,
+    inStock: true,
+    stock: 18,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Bias-cut 22mm heavyweight silk with a gentle drape and delicate adjustable straps.',
+    description: 'Flowing naturally along the contours of the body, our Silk Charmeuse Gown offers unmatched sensuality and elegance. Ideal for formal galas or dressed down with an oversized blazer.',
+    images: [
+      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Champagne Gold', hex: '#DFCDB2' },
+      { name: 'Midnight Emerald', hex: '#1F3A2E' },
+      { name: 'Noir', hex: '#0F172A' }
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    specs: {
+      'Material': '100% Grade 6A Mulberry Silk',
+      'Weight': '22 Momme Heavyweight',
+      'Origin': 'Made in France',
+      'Care': 'Dry Clean or Gentle Hand Wash'
+    }
+  },
+  {
+    id: 'prod-fash-3',
+    name: 'Minimalist Relaxed Wool Blazer',
+    slug: 'minimalist-relaxed-wool-blazer',
+    category: 'Fashion',
+    categorySlug: 'fashion',
+    brand: 'Aura Atelier',
+    price: 28900,
+    originalPrice: 35000,
+    discount: 17,
+    rating: 4.7,
+    reviewsCount: 47,
+    inStock: true,
+    stock: 9,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Contemporary relaxed-fit blazer woven from fine Australian Merino wool.',
+    description: 'Designed for fluid transition from day to evening. Features clean notched lapels, horn buttons, interior passport pockets, and subtle shoulder padding.',
+    images: [
+      'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Charcoal Slate', hex: '#334155' },
+      { name: 'Warm Taupe', hex: '#A39281' },
+      { name: 'Black', hex: '#111827' }
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    specs: {
+      'Material': '100% Extrafine Merino Wool',
+      'Lining': 'Cupro Bemberg',
+      'Origin': 'Portugal',
+      'Fit': 'Contemporary Relaxed'
+    }
+  },
+  {
+    id: 'prod-fash-4',
+    name: 'Organic French Linen Resort Shirt',
+    slug: 'organic-linen-resort-shirt',
+    category: 'Fashion',
+    categorySlug: 'fashion',
+    brand: 'Sartoriale',
+    price: 11500,
+    originalPrice: 14500,
+    discount: 21,
+    rating: 4.6,
+    reviewsCount: 53,
+    inStock: true,
+    stock: 25,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Airy, breathable Normandy-grown linen with mother-of-pearl buttons and relaxed camp collar.',
+    description: 'Breathable, relaxed, and effortlessly chic. Pre-washed for an exceptionally soft lived-in texture that softens gracefully with every wash.',
+    images: [
+      'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Optic White', hex: '#FFFFFF' },
+      { name: 'Sage Leaf', hex: '#879782' },
+      { name: 'Sand Beige', hex: '#D6C7B2' }
+    ],
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    specs: {
+      'Material': '100% Certified Organic French Linen',
+      'Buttons': 'Genuine Australian Mother-of-Pearl',
+      'Origin': 'Italy',
+      'Care': 'Machine wash cold on gentle'
+    }
+  },
+
+  // BEAUTY
+  {
+    id: 'prod-beauty-1',
+    name: 'Lumière Restorative Botanical Face Elixir',
+    slug: 'lumiere-botanical-face-elixir',
+    category: 'Beauty',
+    categorySlug: 'beauty',
+    brand: 'Verve Botanicals',
+    price: 7999,
+    originalPrice: 9999,
+    discount: 20,
+    rating: 4.95,
+    reviewsCount: 198,
+    inStock: true,
+    stock: 35,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Concentrated antioxidant facial oil infused with Rosehip Seed, Blue Tansy, and Squalane.',
+    description: 'A transformative elixir crafted to replenish vital lipids, calm inflammation, and restore a radiant golden glow. Fast-absorbing and non-comedogenic.',
+    images: [
+      'https://images.unsplash.com/photo-1608248597359-01a55f8ff0f8?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Amber Gold 30ml', hex: '#D4AF37' },
+      { name: 'Amber Gold 50ml', hex: '#C5A880' }
+    ],
+    sizes: ['30ml / 1.0 fl oz', '50ml / 1.7 fl oz'],
+    specs: {
+      'Skin Type': 'All skin types, particularly dry & sensitive',
+      'Key Actives': 'Organic Rosehip, Squalane, Blue Tansy, CoQ10',
+      'Formulation': '100% Plant-Derived, Vegan & Cruelty-Free',
+      'Origin': 'Grasse, France'
+    }
+  },
+  {
+    id: 'prod-beauty-2',
+    name: '24K Gold Peptide Eye Renewal Contour',
+    slug: 'gold-peptide-eye-contour',
+    category: 'Beauty',
+    categorySlug: 'beauty',
+    brand: 'Verve Botanicals',
+    price: 9200,
+    originalPrice: 12000,
+    discount: 23,
+    rating: 4.9,
+    reviewsCount: 112,
+    inStock: true,
+    stock: 22,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Ultra-plumping eye cream featuring biomimetic peptides, 24k colloidal gold, and caffeine.',
+    description: 'Target fine lines, dark circles, and morning puffiness with this clinically proven peptide complex. Delivers instant brightening and deep cellular hydration.',
+    images: [
+      'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Standard 15ml', hex: '#DFCDB2' }
+    ],
+    sizes: ['15ml / 0.5 fl oz'],
+    specs: {
+      'Key Benefits': 'Depuffs, firms eye contours, boosts collagen',
+      'Texture': 'Velvety peptide emulsion',
+      'Clinical': 'Dermatologist & Ophthalmologist tested'
+    }
+  },
+  {
+    id: 'prod-beauty-3',
+    name: 'Velvet Matte Liquid Lip Ritual Set (4 Shades)',
+    slug: 'velvet-matte-lip-ritual',
+    category: 'Beauty',
+    categorySlug: 'beauty',
+    brand: 'Maison Noir',
+    price: 6500,
+    originalPrice: 8200,
+    discount: 21,
+    rating: 4.8,
+    reviewsCount: 89,
+    inStock: true,
+    stock: 40,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Couture 12-hour weightless matte lip pigment enriched with hyaluronic spheres and jojoba.',
+    description: 'A curated quartet of flattering iconic nudes and rich berries. Non-drying, transfer-resistant, and infused with subtle French vanilla aroma.',
+    images: [
+      'https://images.unsplash.com/photo-1586495777744-4413f21062fa?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Nude Allure', hex: '#B87D6E' },
+      { name: 'Vintage Rosewood', hex: '#9E4752' },
+      { name: 'Crimson Noir', hex: '#691B24' },
+      { name: 'Spiced Terracotta', hex: '#A85741' }
+    ],
+    sizes: ['Set of 4 x 3.5ml'],
+    specs: {
+      'Finish': 'Velvety Soft Matte',
+      'Wear Time': 'Up to 12 Hours',
+      'Features': 'Smudge-proof, Hydrating Hyaluronic Base'
+    }
+  },
+  {
+    id: 'prod-beauty-4',
+    name: 'Botanical Hair & Scalp Renewal Serum',
+    slug: 'botanical-hair-scalp-serum',
+    category: 'Beauty',
+    categorySlug: 'beauty',
+    brand: 'Verve Botanicals',
+    price: 5400,
+    originalPrice: 7100,
+    discount: 24,
+    rating: 4.7,
+    reviewsCount: 74,
+    inStock: true,
+    stock: 28,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Pre-wash stimulating scalp oil with rosemary, amla extract, and fermented green tea.',
+    description: 'Strengthen follicles, promote dense hair growth, and soothe dry scalp without leaving residue. Features an ergonomic glass dropper for precise root application.',
+    images: [
+      'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Clear Herbal 60ml', hex: '#9CA3AF' }
+    ],
+    sizes: ['60ml / 2.0 fl oz'],
+    specs: {
+      'Ingredients': 'Rosemary Leaf Oil, Organic Amla, Biotin, Jojoba',
+      'Usage': 'Apply 2-3 drops to scalp 20 mins prior to wash'
+    }
+  },
+
+  // ELECTRONICS
+  {
+    id: 'prod-elec-1',
+    name: 'AURA Studio Wireless ANC Headphones',
+    slug: 'aura-studio-anc-headphones',
+    category: 'Electronics',
+    categorySlug: 'electronics',
+    brand: 'Lumina Audio',
+    price: 31999,
+    originalPrice: 37999,
+    discount: 16,
+    rating: 4.95,
+    reviewsCount: 310,
+    inStock: true,
+    stock: 15,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Bespoke anodized aluminum chassis, lambskin memory foam earcups, and lossless spatial audio.',
+    description: 'Engineered for true audiophiles. Experience custom-tuned 40mm beryllium drivers, active hybrid noise cancellation with transparency mode, and 45-hour continuous battery life on a single charge.',
+    images: [
+      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1484704849700-f032a568e944?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Space Silver & Sand', hex: '#E5E7EB' },
+      { name: 'Obsidian Matte', hex: '#18181B' },
+      { name: 'Champagne Gold', hex: '#D4AF37' }
+    ],
+    sizes: ['One Size (Adjustable)'],
+    specs: {
+      'Driver': '40mm Custom Beryllium Diaphragm',
+      'Battery Life': '45 Hours with ANC Enabled',
+      'Bluetooth': '5.3 with LDAC & aptX HD support',
+      'Weight': '275g (Ultra lightweight)'
+    }
+  },
+  {
+    id: 'prod-elec-2',
+    name: 'Horizon Smartwatch — Grade 5 Titanium',
+    slug: 'horizon-smartwatch-titanium',
+    category: 'Electronics',
+    categorySlug: 'electronics',
+    brand: 'Lumina Audio',
+    price: 41500,
+    originalPrice: 52000,
+    discount: 20,
+    rating: 4.85,
+    reviewsCount: 142,
+    inStock: true,
+    stock: 14,
+    isFeatured: true,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Sculpted aerospace titanium with sapphire crystal glass, ECG, and 14-day battery standby.',
+    description: 'The pinnacle of wearable horology. Combines advanced bio-tracking (heart rate, blood oxygen, sleep phases) with timeless sapphire luxury and interchangeable Milanese magnetic bands.',
+    images: [
+      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Brushed Titanium', hex: '#94A3B8' },
+      { name: 'Midnight DLC', hex: '#0F172A' },
+      { name: 'Rose Gold PVD', hex: '#B76E79' }
+    ],
+    sizes: ['42mm Case', '46mm Case'],
+    specs: {
+      'Display': '1.43" AMOLED 1000 nits Always-On',
+      'Water Resistance': '50M / 5 ATM Swim-Proof',
+      'Compatibility': 'iOS & Android Compatible',
+      'Sensors': 'ECG, SpO2, Optical Heart Rate, Compass, Altimeter'
+    }
+  },
+  {
+    id: 'prod-elec-3',
+    name: 'Artisan Solid Walnut Mechanical Keyboard',
+    slug: 'artisan-walnut-mechanical-keyboard',
+    category: 'Electronics',
+    categorySlug: 'electronics',
+    brand: 'Lumina Audio',
+    price: 18500,
+    originalPrice: 23500,
+    discount: 21,
+    rating: 4.9,
+    reviewsCount: 96,
+    inStock: true,
+    stock: 8,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Hand-milled solid American walnut frame with custom lubed tactile switches and brass plate.',
+    description: 'Transform your desktop into an aesthetic sanctuary. Hot-swappable PCB, tri-mode connectivity (Bluetooth 5.2, 2.4GHz dongle, USB-C braided cable), and sound-dampening acoustic foams.',
+    images: [
+      'https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'American Walnut & Brass', hex: '#5B3A29' },
+      { name: 'Nordic Birch & Silver', hex: '#D1B48C' }
+    ],
+    sizes: ['75% Compact (84 Keys)', 'Tenkeyless (87 Keys)'],
+    specs: {
+      'Switches': 'Custom Factory-Lubed Linear Gateron Jade',
+      'Connectivity': 'Bluetooth 5.2 / 2.4Ghz / Type-C',
+      'Battery': '4000mAh (Up to 200 hours wireless)'
+    }
+  },
+  {
+    id: 'prod-elec-4',
+    name: 'Aura SoundSphere Spatial Bluetooth Speaker',
+    slug: 'aura-soundsphere-speaker',
+    category: 'Electronics',
+    categorySlug: 'electronics',
+    brand: 'Lumina Audio',
+    price: 15400,
+    originalPrice: 19900,
+    discount: 23,
+    rating: 4.75,
+    reviewsCount: 68,
+    inStock: true,
+    stock: 20,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: '360° omnidirectional acoustic sound covered in Danish Kvadrat acoustic wool fabric.',
+    description: 'Immersive sound in a compact, sculptural silhouette. Dual passive bass radiators and tuned tweeters fill any room with pure, room-enveloping acoustic clarity.',
+    images: [
+      'https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Warm Cream Wool', hex: '#F5EFEB' },
+      { name: 'Charcoal Wool', hex: '#334155' }
+    ],
+    sizes: ['Standard 20W'],
+    specs: {
+      'Output': '2x 15W Drivers + Dual Bass Radiators',
+      'Playtime': '18 Hours Continuous Play',
+      'Pairing': 'True Wireless Stereo (TWS) Dual Pairing'
+    }
+  },
+
+  // ACCESSORIES
+  {
+    id: 'prod-acc-1',
+    name: 'Palermo Hand-Stitched Grain Leather Tote',
+    slug: 'palermo-leather-tote',
+    category: 'Accessories',
+    categorySlug: 'accessories',
+    brand: 'Aura Atelier',
+    price: 29999,
+    originalPrice: 38500,
+    discount: 22,
+    rating: 4.9,
+    reviewsCount: 165,
+    inStock: true,
+    stock: 10,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Supple full-grain Tuscan calfskin with structured base, magnetic closure, and removable zip pouch.',
+    description: 'Effortlessly holds a 15" laptop along with all your daily essentials. Featuring hand-painted raw edges, solid brass hardware, and interior micro-suede lining.',
+    images: [
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Cognac Saddle', hex: '#9E5B32' },
+      { name: 'Pitch Black', hex: '#0F172A' },
+      { name: 'Olive Drab', hex: '#4B5320' }
+    ],
+    sizes: ['Large (Fits 15" Laptop)', 'Medium (Fits 13" Laptop)'],
+    specs: {
+      'Leather': '100% Vegetable-Tanned Tuscan Calf Leather',
+      'Hardware': 'Solid Antique Brass',
+      'Dimensions': '38cm W x 32cm H x 15cm D',
+      'Origin': 'Florence, Italy'
+    }
+  },
+  {
+    id: 'prod-acc-2',
+    name: 'Monaco Polarized 24K Titanium Sunglasses',
+    slug: 'monaco-polarized-sunglasses',
+    category: 'Accessories',
+    categorySlug: 'accessories',
+    brand: 'Maison Noir',
+    price: 17500,
+    originalPrice: 23000,
+    discount: 24,
+    rating: 4.8,
+    reviewsCount: 88,
+    inStock: true,
+    stock: 16,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Japanese beta-titanium frames with Category 3 polarized nylon lenses and anti-reflective coating.',
+    description: 'Featherweight luxury engineered to sit weightlessly on the bridge of the nose. 100% UVA/UVB protection with crystal-clear chromatic clarity.',
+    images: [
+      'https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Gold & Forest Green Lens', hex: '#D4AF37' },
+      { name: 'Gunmetal & Smoke Lens', hex: '#475569' }
+    ],
+    sizes: ['52-20-145 (Standard)'],
+    specs: {
+      'Frame': 'Japanese Beta-Titanium (Ultra Flexible)',
+      'Lenses': 'Polarized Nylon UV400 Protection',
+      'Packaging': 'Includes Genuine Leather Hard Case'
+    }
+  },
+  {
+    id: 'prod-acc-3',
+    name: '18K Gold Vermeil Celestial Pendant Necklace',
+    slug: 'celestial-pendant-necklace',
+    category: 'Accessories',
+    categorySlug: 'accessories',
+    brand: 'Aura Atelier',
+    price: 14900,
+    originalPrice: 18900,
+    discount: 21,
+    rating: 4.95,
+    reviewsCount: 140,
+    inStock: true,
+    stock: 19,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Hand-carved medallion plated in 2.5 microns of 18K yellow gold over solid 925 sterling silver.',
+    description: 'Inspired by antique astronomical talismans. Suspended on a delicate diamond-cut rope chain with an adjustable clasp and bezel-set ethically sourced white sapphire.',
+    images: [
+      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: '18K Yellow Gold', hex: '#D4AF37' },
+      { name: 'Rhodium Silver', hex: '#CBD5E1' }
+    ],
+    sizes: ['18" + 2" Extension'],
+    specs: {
+      'Base Metal': 'Recycled 925 Sterling Silver',
+      'Plating': '18K Heavy Gold Vermeil (2.5 Micron)',
+      'Stone': 'Natural White Sapphire (0.05 ct)'
+    }
+  },
+  {
+    id: 'prod-acc-4',
+    name: 'Silk Twill Architectural Print Square Scarf',
+    slug: 'silk-twill-print-scarf',
+    category: 'Accessories',
+    categorySlug: 'accessories',
+    brand: 'Maison Noir',
+    price: 9900,
+    originalPrice: 12500,
+    discount: 21,
+    rating: 4.7,
+    reviewsCount: 41,
+    inStock: true,
+    stock: 30,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: '100% heavy silk twill featuring hand-rolled edges and hand-screenprinted geometry.',
+    description: 'An artful finishing accent. Tie it in hair, drape around the collar of a wool coat, or knot gracefully onto the handle of your leather tote.',
+    images: [
+      'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Terracotta & Navy', hex: '#A85741' },
+      { name: 'Monochrome Ivory', hex: '#F5EFEB' }
+    ],
+    sizes: ['90cm x 90cm (Large Square)'],
+    specs: {
+      'Material': '100% Silk Twill (16 Momme)',
+      'Edges': 'Hand-Rolled French Hems',
+      'Origin': 'Lyon, France'
+    }
+  },
+
+  // HOME & LIFESTYLE
+  {
+    id: 'prod-home-1',
+    name: 'Ultrasonic Ceramic Stone Diffuser & Oil Kit',
+    slug: 'ceramic-stone-diffuser-kit',
+    category: 'Home & Lifestyle',
+    categorySlug: 'home-lifestyle',
+    brand: 'Nordique Living',
+    price: 10900,
+    originalPrice: 13900,
+    discount: 22,
+    rating: 4.9,
+    reviewsCount: 154,
+    inStock: true,
+    stock: 24,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Handmade matte porcelain cover with whisper-quiet ultrasonic vibrations and ambient LED glow.',
+    description: 'Transform your living space into a tranquil wellness sanctuary. Features 8-hour continuous or intermittent diffusion, auto-shutoff, and includes 2 organic essential oil blends (Hinoki Wood & Bergamot).',
+    images: [
+      'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Matte Sandstone', hex: '#E6DEC9' },
+      { name: 'Charcoal Terracotta', hex: '#52433C' },
+      { name: 'Pure Chalk', hex: '#FAFAFA' }
+    ],
+    sizes: ['180ml Reservoir'],
+    specs: {
+      'Cover Material': 'Handcrafted Ceramic Porcelain',
+      'Coverage': 'Up to 500 sq. ft.',
+      'Timer Modes': 'Continuous, 4-Hour, 8-Hour Interval',
+      'Safety': 'BPA-Free, Waterless Auto-Shutoff'
+    }
+  },
+  {
+    id: 'prod-home-2',
+    name: 'Amber & Smoked Santal Hand-Poured Soy Candle',
+    slug: 'amber-santal-luxury-candle',
+    category: 'Home & Lifestyle',
+    categorySlug: 'home-lifestyle',
+    brand: 'Nordique Living',
+    price: 4300,
+    originalPrice: 5400,
+    discount: 20,
+    rating: 4.85,
+    reviewsCount: 210,
+    inStock: true,
+    stock: 50,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: '100% natural coconut-soy wax blend with dual crackling wooden wicks in a heavy blown glass vessel.',
+    description: 'Top notes of Cardamom and Cedarwood melting into warm Amber, Sandalwood, and hints of French Vanilla. Clean 65-hour burn time with zero paraffin or synthetic additives.',
+    images: [
+      'https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Smoked Glass Vessel 300g', hex: '#3E342B' }
+    ],
+    sizes: ['300g / 10.5 oz (65h Burn)'],
+    specs: {
+      'Wax': '100% Sustainable Coconut-Soy Wax',
+      'Wick': 'FSC-Certified Organic Wooden Wick',
+      'Scent Profile': 'Woody, Amber, Spicy Santal',
+      'Origin': 'Hand-Poured in Brooklyn, NY'
+    }
+  },
+  {
+    id: 'prod-home-3',
+    name: 'Belgian Washed Pure Linen Duvet Set',
+    slug: 'belgian-linen-duvet-set',
+    category: 'Home & Lifestyle',
+    categorySlug: 'home-lifestyle',
+    brand: 'Nordique Living',
+    price: 21900,
+    originalPrice: 28500,
+    discount: 23,
+    rating: 4.95,
+    reviewsCount: 95,
+    inStock: true,
+    stock: 12,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Garment-washed 100% Flax linen from Flanders with hidden mother-of-pearl buttons and 2 pillow shams.',
+    description: 'Naturally temperature-regulating, antimicrobial, and impossibly soft. Gets softer with every wash while lending your bedroom a relaxed, sumptuous resort aesthetic.',
+    images: [
+      'https://images.unsplash.com/photo-1582582621959-48d27397dc69?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1540518614846-7ede433c4ef2?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Natural Flax', hex: '#D6C7B2' },
+      { name: 'Dove Grey', hex: '#CBD5E1' },
+      { name: 'Chalk White', hex: '#FFFFFF' }
+    ],
+    sizes: ['Queen (Duvet + 2 Shams)', 'King (Duvet + 2 Shams)'],
+    specs: {
+      'Material': '100% Certified Belgian Flax',
+      'Weight': '170 GSM',
+      'Certification': 'OEKO-TEX Standard 100 Certified'
+    }
+  },
+  {
+    id: 'prod-home-4',
+    name: 'Sculptural Asymmetric Ceramic Vessel',
+    slug: 'sculptural-ceramic-vessel',
+    category: 'Home & Lifestyle',
+    categorySlug: 'home-lifestyle',
+    brand: 'Nordique Living',
+    price: 7500,
+    originalPrice: 10000,
+    discount: 25,
+    rating: 4.75,
+    reviewsCount: 38,
+    inStock: true,
+    stock: 17,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Hand-thrown textured stoneware vase with organic curved handles and matte reactive glaze.',
+    description: 'A striking decorative centerpiece whether displayed empty as architectural art or filled with dried eucalyptus and pampas grass branches.',
+    images: [
+      'https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Matte Oatmeal', hex: '#E5DCCE' },
+      { name: 'Raw Basalt', hex: '#27272A' }
+    ],
+    sizes: ['Height: 28cm (Medium)', 'Height: 38cm (Large)'],
+    specs: {
+      'Material': 'High-Fire Natural Stoneware',
+      'Finish': 'Textured Raw Exterior, Water-tight Glazed Interior',
+      'Craft': 'Wheel-Thrown & Hand-Finished'
+    }
+  },
+
+  // FOOTWEAR
+  {
+    id: 'prod-foot-1',
+    name: 'Atelier Minimalist Low-Top Leather Sneaker',
+    slug: 'atelier-minimalist-sneaker',
+    category: 'Footwear',
+    categorySlug: 'footwear',
+    brand: 'Aura Atelier',
+    price: 19999,
+    originalPrice: 25999,
+    discount: 23,
+    rating: 4.9,
+    reviewsCount: 175,
+    inStock: true,
+    stock: 18,
+    isFeatured: true,
+    isTrending: true,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Italian Nappa leather uppers, Margom rubber cupsole, and calfskin lined ergonomic footbed.',
+    description: 'The definitive luxury sneaker. Meticulously clean lines with gold-foil stamped serial numbers on the heel, wax-coated cotton laces, and sublime all-day walking support.',
+    images: [
+      'https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Pristine White', hex: '#FFFFFF' },
+      { name: 'Onyx Monochrome', hex: '#18181B' },
+      { name: 'Vachetta Sand', hex: '#D6C7B2' }
+    ],
+    sizes: ['EU 39', 'EU 40', 'EU 41', 'EU 42', 'EU 43', 'EU 44', 'EU 45'],
+    specs: {
+      'Upper': '100% Italian Full-Grain Nappa Leather',
+      'Sole': 'Stitched Margom Italian Rubber Sole',
+      'Lining': 'Breathable Vegetable-Tanned Calfskin',
+      'Origin': 'Civitanova Marche, Italy'
+    }
+  },
+  {
+    id: 'prod-foot-2',
+    name: 'Velveteen Suede Chelsea Boots — Cognac',
+    slug: 'velveteen-suede-chelsea-boots',
+    category: 'Footwear',
+    categorySlug: 'footwear',
+    brand: 'Sartoriale',
+    price: 26900,
+    originalPrice: 34500,
+    discount: 22,
+    rating: 4.85,
+    reviewsCount: 120,
+    inStock: true,
+    stock: 11,
+    isFeatured: false,
+    isTrending: true,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Water-resistant waxed suede with Goodyear welt construction and durable Vibram rubber half-sole.',
+    description: 'A handsome essential with timeless silhouette. Features dual elastic side gussets for effortless pull-on convenience and hand-stacked leather heels.',
+    images: [
+      'https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Cognac Suede', hex: '#8C5228' },
+      { name: 'Midnight Charcoal Suede', hex: '#27272A' }
+    ],
+    sizes: ['EU 40', 'EU 41', 'EU 42', 'EU 43', 'EU 44'],
+    specs: {
+      'Upper': 'Hydro-Repellent English Calf Suede',
+      'Construction': 'Goodyear Welted (Recraftable)',
+      'Insole': 'Cork-Filled Ergonomic Footbed'
+    }
+  },
+  {
+    id: 'prod-foot-3',
+    name: 'Sculpted Block Heel Strap Sandal',
+    slug: 'sculpted-block-heel-sandal',
+    category: 'Footwear',
+    categorySlug: 'footwear',
+    brand: 'Maison Noir',
+    price: 17900,
+    originalPrice: 23500,
+    discount: 24,
+    rating: 4.75,
+    reviewsCount: 64,
+    inStock: true,
+    stock: 14,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: true,
+    isNew: false,
+    shortDescription: 'Sleek asymmetric tubular straps with a modern 65mm geometric block heel and memory cushioning.',
+    description: 'Designed for endless evening dancing without compromising on stability or poise. Crafted in glove-soft lambskin leather.',
+    images: [
+      'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1562273138-f46be4ebdf33?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Nude Beige', hex: '#DFCDB2' },
+      { name: 'Obsidian Gloss', hex: '#0F172A' },
+      { name: 'Metallic Platinum', hex: '#CBD5E1' }
+    ],
+    sizes: ['EU 36', 'EU 37', 'EU 38', 'EU 39', 'EU 40', 'EU 41'],
+    specs: {
+      'Heel Height': '65mm / 2.5 inches',
+      'Material': '100% Spanish Lambskin Leather',
+      'Footbed': 'Dual-Density Memory Foam Cushioning'
+    }
+  },
+  {
+    id: 'prod-foot-4',
+    name: 'Monolith Suede Loafers with Brushed Buckle',
+    slug: 'monolith-suede-loafers',
+    category: 'Footwear',
+    categorySlug: 'footwear',
+    brand: 'Sartoriale',
+    price: 22900,
+    originalPrice: 29000,
+    discount: 21,
+    rating: 4.8,
+    reviewsCount: 52,
+    inStock: true,
+    stock: 15,
+    isFeatured: false,
+    isTrending: false,
+    isBestSeller: false,
+    isNew: true,
+    shortDescription: 'Unlined buttery soft suede loafers with brushed brass horsebit hardware and flex rubber sole.',
+    description: 'Supremely versatile luxury slip-ons. Crafted to be worn comfortably barefoot or styled with tailored linen trousers for European riviera charm.',
+    images: [
+      'https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=900&auto=format&fit=crop'
+    ],
+    colors: [
+      { name: 'Espresso Brown', hex: '#3B2418' },
+      { name: 'Sand Taupe', hex: '#C2B6A3' }
+    ],
+    sizes: ['EU 40', 'EU 41', 'EU 42', 'EU 43', 'EU 44', 'EU 45'],
+    specs: {
+      'Upper': 'Italian Unlined Reverse Suede',
+      'Hardware': 'Brushed Solid Brass Horsebit',
+      'Sole': 'Flexible City Rubber Outsole'
+    }
+  }
+];
+
+export const REVIEWS = [
+  {
+    id: 'rev-1',
+    userName: 'Genevieve Dupond',
+    location: 'Paris, France',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop',
+    rating: 5,
+    date: '2 days ago',
+    title: 'Flawless craftsmanship and luxury feel',
+    comment: 'The Cashmere coat surpassed my expectations. The drape, weight, and hand-feel are on par with bespoke European fashion houses charging four times the price. The packaging was immaculate.',
+    productName: 'Tailored Cashmere Coat',
+    verifiedPurchase: true
+  },
+  {
+    id: 'rev-2',
+    userName: 'Alexander Wright',
+    location: 'London, UK',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
+    rating: 5,
+    date: '1 week ago',
+    title: 'The acoustic profile is breathtaking',
+    comment: 'I am a sound engineer and usually skeptical of wireless headphones. The AURA Studio headphones deliver astounding soundstage separation and pristine highs. Plus, they look striking on my desk.',
+    productName: 'AURA Studio ANC Headphones',
+    verifiedPurchase: true
+  },
+  {
+    id: 'rev-3',
+    userName: 'Elena Rostova',
+    location: 'New York, USA',
+    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop',
+    rating: 5,
+    date: '2 weeks ago',
+    title: 'Instant skin glow within three days',
+    comment: 'The Lumière Botanical Elixir is now my holy grail. Lightweight, soothing, and leaves an otherworldly dewy radiance that gets complimented daily. Will be repurchasing regularly!',
+    productName: 'Lumière Botanical Face Elixir',
+    verifiedPurchase: true
+  },
+  {
+    id: 'rev-4',
+    userName: 'Julian De Silva',
+    location: 'Milan, Italy',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop',
+    rating: 5,
+    date: '3 weeks ago',
+    title: 'Exceptional leather quality and proportions',
+    comment: 'The Palermo Tote has become my daily companion. Holds my MacBook Pro seamlessly, smells like genuine Tuscan leather, and the brass accents give it an unmatched air of elegance.',
+    productName: 'Palermo Hand-Stitched Leather Tote',
+    verifiedPurchase: true
+  }
+];
+
+export const PROMO_CODES = {
+  'AURA20': { type: 'percentage', value: 20, description: '20% Off Storewide' },
+  'FIRST10': { type: 'percentage', value: 10, description: '10% Welcome Discount' },
+  'VIP500': { type: 'fixed', value: 500, description: '₹500 Off Orders Over ₹3,000', minSpend: 3000 },
+  'VIP2000': { type: 'fixed', value: 2000, description: '₹2,000 Off Orders Over ₹15,000', minSpend: 15000 },
+  'FREESHIP': { type: 'shipping', value: 350, description: 'Free Express Shipping' }
+};
+
+export const CURRENCIES = [
+  { code: 'INR', symbol: '₹', rate: 1.0, label: 'INR (₹)' },
+  { code: 'USD', symbol: '$', rate: 0.012, label: 'USD ($)' },
+  { code: 'EUR', symbol: '€', rate: 0.011, label: 'EUR (€)' },
+  { code: 'GBP', symbol: '£', rate: 0.0095, label: 'GBP (£)' },
+];

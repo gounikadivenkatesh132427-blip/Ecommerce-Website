@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fashion",
+    "name": "Fashion",
+    "slug": "fashion",
+    "description": "Effortless silhouettes tailored with timeless craftsmanship and pure natural fabrics.",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "120+ Items"
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty",
+    "slug": "beauty",
+    "description": "Clean, potent formulations designed to illuminate, nourish, and revitalize.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "85+ Items"
+  },
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": "Precision engineering meets minimalist aesthetics for elevated everyday living.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "60+ Items"
+  },
+  {
+    "id": "accessories",
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "Curated statement jewelry, artisanal leather bags, and refined accents.",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "95+ Items"
+  },
+  {
+    "id": "home-lifestyle",
+    "name": "Home & Lifestyle",
+    "slug": "home-lifestyle",
+    "description": "Sculptural homeware, comforting fragrances, and conscious living essentials.",
+    "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "70+ Items"
+  },
+  {
+    "id": "footwear",
+    "name": "Footwear",
+    "slug": "footwear",
+    "description": "Handcrafted shoes engineered for supreme comfort, sleek lines, and durability.",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=900&auto=format&fit=crop",
+    "itemCount": "50+ Items"
+  }
+]
